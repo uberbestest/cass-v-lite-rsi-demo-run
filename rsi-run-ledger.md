@@ -148,11 +148,14 @@ froze that baseline, and only then accepted the one-file test-only mutation.
 ## Residual Risk
 
 This artifact records commands and observed results, but it is not a substitute for
-reviewing the original project diff before deciding whether to commit the test-only
-delta back to Cass-V Lite.
+reviewing the original project diff. On July 3, 2026, the original Cass-V Lite
+`main` branch was rechecked and the approved one-file test delta was already present
+as commit `d691600 Add CLI argument text regression test`.
 
 ## Verdict
 
 Accept.
 
-The run preserved the objective and applied only the approved test-only delta.
+The run preserved the objective and applied only the approved test-only delta. The
+later July 3 recheck confirmed that no pending backport decision remained for that
+delta.

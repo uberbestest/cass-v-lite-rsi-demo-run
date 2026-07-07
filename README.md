@@ -48,5 +48,7 @@ Ran 6 tests ... OK
 
 ## Boundary
 
-This repository is the demo/run artifact. The decision to commit the test-only delta
-back to the original Cass-V Lite repository is intentionally separate.
+This repository is the demo/run artifact, not a reconstructed Cass-V Lite source
+tree. On July 3, 2026, the original Cass-V Lite `main` branch was rechecked and the
+approved test-only delta was already present there as commit
+`d691600 Add CLI argument text regression test`.

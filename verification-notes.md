@@ -63,6 +63,19 @@ python -B -m unittest
 Ran 6 tests ... OK
 ```
 
+## July 3, 2026 Recheck
+
+The original Cass-V Lite `main` branch was rechecked after the demo artifact was
+created. The approved one-file `test_cass_v_lite.py` delta was already present on
+`main` as:
+
+```text
+d691600 Add CLI argument text regression test
+```
+
+The artifact repository remains evidence-only and intentionally excludes Cass-V Lite
+source files.
+
 ## Artifact Repo Checks
 
 Expected artifact repo contents:
